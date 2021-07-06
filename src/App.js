@@ -9,10 +9,12 @@ import Books from './Books';
 import PrivateRoute from './PrivateRoute'
 import store from './store/';
 import { Provider } from 'react-redux';
+import Navbar from './NavBar';
 
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <Provider store={store}>
         <Router>
           <Switch>
