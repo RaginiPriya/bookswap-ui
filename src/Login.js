@@ -103,12 +103,12 @@ class Login extends Component {
                         <div className="col-lg-6">
                             <form id="loginForm" onSubmit={this.login}>
                                 <div className="form-floating mb-3">
-                                    <input className="form-control" id="email" type="text" placeholder="usernameOrEmail" value={this.state.usernameOrEmail}
+                                    <input className="form-control" id="email" type="text"  value={this.state.usernameOrEmail}
                         onChange={e => this.setState({ usernameOrEmail: e.target.value })}/>
                                     <label for="email">Username or Email address</label>
                                 </div>
                                 <div className="form-floating mb-3">
-                                    <input className="form-control" id="phone" type="password" placeholder="Password" value={this.state.loginPassword}
+                                    <input className="form-control" id="phone" type="password" value={this.state.loginPassword}
                         onChange={e => this.setState({ loginPassword: e.target.value })}/>
                                     <label for="phone">Password</label>
                                 </div>
@@ -127,37 +127,37 @@ class Login extends Component {
                         <div className="col-lg-6">
                             <form id="signupForm" onSubmit={this.signUp}>
                                 <div className="form-floating mb-3">
-                                    <input className="form-control" id="username" type="text" placeholder="username" value={this.state.username}
+                                    <input className="form-control" id="username" type="text" value={this.state.username}
                         onChange={e => this.setState({ username: e.target.value })}/>
                                     <label for="username">Username</label>
                                 </div>
                                 <div className="form-floating mb-3">
-                                    <input className="form-control" id="email" type="email" placeholder="email" value={this.state.email}
+                                    <input className="form-control" id="email" type="email" value={this.state.email}
                         onChange={e => this.setState({ email: e.target.value })}/>
                                     <label for="email">Email</label>
                                 </div>
                                 <div className="form-floating mb-3">
-                                    <input className="form-control" id="password" type="password" placeholder="password" value={this.state.password}
+                                    <input className="form-control" id="password" type="password" value={this.state.password}
                         onChange={e => this.setState({ password: e.target.value })}/>
                                     <label for="password">Password</label>
                                 </div>
                                 <div className="form-floating mb-3">
-                                    <input className="form-control" id="area" type="text" placeholder="area" value={this.state.area}
+                                    <input className="form-control" id="area" type="text" value={this.state.area}
                         onChange={e => this.setState({ area: e.target.value })}/>
                                     <label for="email">Area</label>
                                 </div>
                                 <div className="form-floating mb-3">
-                                    <input className="form-control" id="city" type="text" placeholder="city" value={this.state.city}
+                                    <input className="form-control" id="city" type="text" value={this.state.city}
                         onChange={e => this.setState({ city: e.target.value })}/>
                                     <label for="city">City</label>
                                 </div>
                                 <div className="form-floating mb-3">
-                                    <input className="form-control" id="state" type="text" placeholder="state" value={this.state.state}
+                                    <input className="form-control" id="state" type="text" value={this.state.state}
                         onChange={e => this.setState({ state: e.target.value })}/>
                                     <label for="state">State</label>
                                 </div>
                                 <div className="form-floating mb-3">
-                                    <input className="form-control" id="country" type="text" placeholder="country" value={this.state.country}
+                                    <input className="form-control" id="country" type="text" value={this.state.country}
                         onChange={e => this.setState({ country: e.target.value })}/>
                                     <label for="country">Country</label>
                                 </div>
