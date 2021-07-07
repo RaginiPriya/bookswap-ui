@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Login from './Login'
-import NavBar from './NavBar'
+import './Home.css'
 
 class Home extends Component {
 

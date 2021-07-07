@@ -18,7 +18,7 @@ function App() {
             <Route component={Login} exact path='/login' />
             <Route component={Home} exact path='/' />
             <PrivateRoute component={Library} path='/library' />
-            <PrivateRoute component={Books} path='/books' />
+            <Route component={Books} path='/books' />
           </Switch>
         </Router>
       </Provider>

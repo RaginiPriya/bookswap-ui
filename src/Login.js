@@ -74,7 +74,7 @@ class Login extends Component {
     }
 
     render() {
-        const redirect = this.state.shouldRedirect ? <Redirect to="/books" /> : null
+        const redirect = this.state.shouldRedirect ? <Redirect to="/library" /> : null
 
     //     const error = this.state.loginError ? 
     //     (<Alert variant="danger" onClose={() => this.setState({loginError: false}) } dismissable>
